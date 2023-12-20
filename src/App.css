@@ -1,0 +1,36 @@
+/* stylelint-disable comment-empty-line-before */
+/* stylelint-disable value-list-comma-space-before */
+/* stylelint-disable font-family-name-quotes */
+body {
+  background-color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+  height: 640px;
+  margin: auto;
+  width: 360px;
+}
+
+.start-recipe-btn {
+  background: #0a9b61;
+  border: none;
+  border-radius: 5px;
+  bottom: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: 900;
+  margin: auto;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  position: fixed;
+  width: 360px;
+  z-index: 10;
+}
+
+.checked {
+  text-decoration: line-through solid;
+  text-decoration-color: black;
+}
+
+p {
+  font-size: 1rem;
+}
